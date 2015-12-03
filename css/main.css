@@ -1,4 +1,5 @@
 body{
+    
 height: 4000px;
 }
 ul{list-style: none;}
@@ -84,11 +85,14 @@ td:hover
 
 #content
 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    height: 540px;
-    width: 50%;
-    position: relative;
-    left: 24%;
+    height: auto;
+    width: 60%;
+  
 }
 
 #content_img
@@ -102,6 +106,7 @@ td:hover
 }
 #content_article
 {
+    padding: 5%; 
     text-align: center;
 }
 #footer
