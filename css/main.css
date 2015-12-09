@@ -41,13 +41,17 @@ ul{list-style: none;}
     text-align: center;
     z-index: 1;
 }
+#menu_current
+{
 
+}
 td:hover
 {
     border-radius: 10px;
     background-color: white;
     transition: 0.3s;
-    color: #e91e63;
+    color: #a3a4a5;
+    
     cursor: pointer;
 }
 #header_title:hover
