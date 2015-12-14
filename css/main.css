@@ -32,11 +32,40 @@ ul{list-style: none;}
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 75px;
-    position: relative;
+    position: fixed;
     top: 13%;
     left: 20%;
 }
-
+#day
+{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 21%;
+}
+#hour
+{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 29%;
+}
+#min
+{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 37%;
+}
 #header
 {
     font-family: 'Roboto', sans-serif;
@@ -75,6 +104,7 @@ ul{list-style: none;}
     color: white;
     text-align: center;
     z-index: 1;
+   
 }
 #menu_current
 {

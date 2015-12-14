@@ -12,7 +12,13 @@ function getScrollTop(){
 
 document.onscroll = function() {
     var list = document.getElementById('menu_list');
-    list.style.visibility = (getScrollTop() !== 0) ? 'hidden' : 'visible';   
+    /*if(getScrollTop <= 64)
+    {
+     list.style.visibility='visible';
+     list.style.position = 'relative';
+     list.style.top= 64-;
+    }else{list.style.visibility='hidden'}
+    */list.style.visibility = (getScrollTop() !== 0) ? 'hidden' : 'visible';   
 }
 
 function btn_hide_onclick()
