@@ -14,3 +14,9 @@ document.onscroll = function() {
     var list = document.getElementById('menu_list');
     list.style.visibility = (getScrollTop() !== 0) ? 'hidden' : 'visible';   
 }
+
+function btn_hide_onclick()
+{
+    var element = document.getElementById('index');
+    element.style.display = 'none';
+}
