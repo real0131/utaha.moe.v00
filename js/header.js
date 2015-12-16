@@ -26,7 +26,12 @@ document.onscroll = function() {
      list.style.position = 'relative';
      list.style.top= 64-;
     }else{list.style.visibility='hidden'}
-    */list.style.visibility = (getScrollTop() !== 0) ? 'hidden' : 'visible';   
+    */
+    if(getScrollTop() !== 0)
+    {
+            
+    }else{}
+    list.style.visibility = (getScrollTop() !== 0) ? 'hidden' : 'visible';   
 }
 
 function btn_hide_onclick()
@@ -42,7 +47,7 @@ function opacity()
     element_3.style.opacity= opa;
 
 
-    opa=opa+0.01;
+    opa=opa+0.005;
 }
-setInterval(opacity,10);
+setInterval(opacity,1); //0.5s
 
