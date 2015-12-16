@@ -1,3 +1,11 @@
+    var element_1 = document.getElementById('index_time_int');
+    var element_2 = document.getElementById('index_time_char');
+    var element_3 = document.getElementById('utaha_main_pic');
+
+    element_1.style.opacity= 0;    
+    element_2.style.opacity= 0;
+    element_3.style.opacity= 0;
+
 function getScrollTop(){
     if (typeof pageYOffset != 'undefined') {
         //most browsers except IE before #9
@@ -26,3 +34,15 @@ function btn_hide_onclick()
     var element = document.getElementById('index');
     element.style.display = 'none';
 }
+var opa=0;
+function opacity()
+{
+    element_1.style.opacity= opa;    
+    element_2.style.opacity= opa;
+    element_3.style.opacity= opa;
+
+
+    opa=opa+0.01;
+}
+setInterval(opacity,10);
+

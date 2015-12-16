@@ -1,5 +1,6 @@
 body{
-height: 4000px;
+    font-family: 'Roboto', sans-serif;
+    height: 4000px;
 }
 ul{list-style: none;}
 #index{
@@ -15,7 +16,7 @@ ul{list-style: none;}
 #btn_hide
 {
     position: fixed;
-    top: auto;
+    top: 0;
     right: 0;
     cursor: pointer;
 }
@@ -27,14 +28,37 @@ ul{list-style: none;}
     top: 40%;
     left: 70%;
 }
-#time{
+#index_time_int
+{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 75px;
+    font-size: 50px;
+}
+#time_day{
+    display: block;
     position: fixed;
-    top: 13%;
-    left: 20%;
+    top: 17%;
+    left: 20.7%;
+   
+}
+#time_hour{
+    display: block;
+    position: fixed;
+    top: 17%;
+    left: 27%;
+}
+#time_min{
+    display: block;
+    position: fixed;
+    top: 17%;
+    left: 33.7%;
+}
+#time_sec{
+    display: block;
+    position: fixed;
+    top: 17%;
+    left: 39.6%;
 }
 #day
 {
@@ -54,7 +78,7 @@ ul{list-style: none;}
     font-size: 30px;
     position: fixed;
     top: 25%;
-    left: 29%;
+    left: 27%;
 }
 #min
 {
@@ -64,7 +88,19 @@ ul{list-style: none;}
     font-size: 30px;
     position: fixed;
     top: 25%;
-    left: 37%;
+    left: 34%;
+}
+#sec
+{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: fixed;
+    top: 25%;
+    left: 40%;
+
+
 }
 #header
 {
