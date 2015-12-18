@@ -3,7 +3,9 @@ body{
     height: 4000px;
 }
 ul{list-style: none;}
+
 #index{
+    margin: auto;
     display: inline-block;
     z-index: 9999;
     width: 100%;
@@ -30,75 +32,76 @@ ul{list-style: none;}
 }
 #index_time_int
 {
-    display: inline-block;
+    
+    display: inline;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 50px;
-}
-#time_day{
-    display: block;
     position: fixed;
     top: 17%;
-    left: 20.7%;
-   
+    left: 20%;
+    
 }
-#time_hour{
-    display: block;
-    position: fixed;
-    top: 17%;
-    left: 27%;
-}
-#time_min{
-    display: block;
-    position: fixed;
-    top: 17%;
-    left: 33.7%;
-}
-#time_sec{
-    display: block;
-    position: fixed;
-    top: 17%;
-    left: 39.6%;
-}
-#day
+#index_time_char
 {
     display: inline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' , sans-serif;
     font-weight: 100;
     font-size: 30px;
     position: fixed;
     top: 25%;
     left: 21%;
 }
+#day_colone
+
+     padding-right: 3%;
+    float: left;
+    
+}
+#time_day
+{
+    padding-right: 3%;
+   float: left;
+   
+}
+#time_hour
+{
+   float: left;
+   padding-right: 3%;
+}
+#time_min
+{
+    float: left;  
+    padding-right: 3%;
+
+}
+#time_sec
+{
+    float: left;
+       padding-right: 3%;
+}
+#day
+{
+    float: left;
+       padding-right: 6%;
+
+}
 #hour
 {
-    display: inline;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    position: fixed;
-    top: 25%;
-    left: 27%;
+    float: left;
+    padding-right: 6%;
+
 }
 #min
 {
-    display: inline;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    position: fixed;
-    top: 25%;
-    left: 34%;
+    float: left;
+       padding-right: 6%;
+
 }
 #sec
 {
-    display: inline;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    position: fixed;
-    top: 25%;
-    left: 40%;
+    float: left;
+       padding-right: 6%;
 
 
 }
@@ -221,3 +224,4 @@ td:hover
     position: relative;
     top: 100%;
 }
+
